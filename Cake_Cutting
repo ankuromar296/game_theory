@@ -25,12 +25,4 @@ M = matrix([[5,10],[6,3]])
  g = NormalFormGame([M])
      g.rename('CakeCutting: ' + repr(g))
      return g
-diff --git a/src/sage/game_theory/named_games.py b/src/sage/game_theory/named_games.py
-index b9da09e..d7d9958 100644
---- a/src/sage/game_theory/named_games.py
-+++ b/src/sage/game_theory/named_games.py
-@@ -11,3 +11,4 @@ from sage.game_theory.catalog import HawkDove
- from sage.game_theory.catalog import MatchingPennies
- from sage.game_theory.catalog import Pigs
- from sage.game_theory.catalog import PrisonersDilemma
-+from sage.game_theory.catalog import RPS
+
